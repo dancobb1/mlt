@@ -19,7 +19,7 @@ template.  Note that this is the description that will be displayed with
 * `*.py` files
 * `requirements.txt` - updated with any libraries that your app uses
 * `crd-requirements.txt` - (optional) updated with any operators your model depends on.
-By default `crd-check` is performed during `mlt init` and `mlt deploy`. The later, `mlt deploy`, compares crds specified in crd-requirements.txt against crds in your cluster. 
+By default `crd-check` is performed during the execution of both `mlt init` and `mlt deploy`. The `crd-check` command compares crds specified in crd-requirements.txt against crds in your cluster.
  [Example](../mlt-templates/tf-distributed/crd-requirements.txt)
 * `Dockerfile` - modified if the name of the python file to execute is different,
 etc.
